@@ -1,0 +1,42 @@
+.protofolyo img{
+    width: 100%;
+    padding: 5px;
+    
+}
+
+
+.parent .line {
+    height: 5px;
+    margin: 4px;
+    background-color: rgb(207, 73, 73);
+    animation: rightToLeft 4s linear infinite reverse;
+    -webkit-animation: rightToLeft 3s linear infinite reverse;
+    }
+
+    .parent .line:nth-child(1) {
+    width: 80px;
+    }
+    .parent .line:nth-child(2) {
+    width: 40px;
+    }
+    .parent .line:nth-child(3) {
+    width: 80px;
+    }
+
+    @keyframes rightToLeft {
+    from {
+        transform: translateX(200px);
+        -webkit-transform: translateX(200px);
+        -moz-transform: translateX(200px);
+        -ms-transform: translateX(200px);
+        -o-transform: translateX(200px);
+    }
+
+    to {
+        transform: translateX(-200px);
+        -webkit-transform: translateX(-200px);
+        -moz-transform: translateX(-200px);
+        -ms-transform: translateX(-200px);
+        -o-transform: translateX(-200px);
+    }
+    }

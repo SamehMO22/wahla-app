@@ -1,0 +1,60 @@
+.titlebg{
+    background-color: #38ba9b;
+    border-radius: 5%;
+}
+
+
+.onebyone{
+    background-color: #cccccc;
+}
+
+.onebytwo{
+    background-color: #e6e6e6;
+}
+.textcolor{
+    color:  white;
+}
+.cartbtn{
+    background-color: #38ba9b;
+}
+
+
+.titlebgtwo{
+    background-color: #f05b6c;
+    border-radius: 5%;
+
+}
+.titlebgthree{
+    background-color: #2d324b;
+    border-radius: 5%;
+
+}
+.socialpadding{
+    font-size: 35px;
+    padding-top: 200px;
+    /* padding-bottom: 500px; */
+}
+.silverpadding{
+    font-size: 35px;
+    padding-top: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+ .correcticon{
+    color: #38ba9b;
+    font-size: 25px;
+    padding-left: 10px;
+ }
+
+ .xicon{
+    color: red;
+    font-size: 25px;
+    padding-left: 10px;
+ }
+
+ .hampozoo{
+    padding-left: 50px;
+
+ }
+

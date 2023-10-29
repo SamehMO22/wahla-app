@@ -1,0 +1,16 @@
+
+
+.sliderdigital img{
+    background-color: #108f6e;
+    width: 130px;
+    border-radius: 50%;
+}
+.sliderdigital p{
+
+    color: gray;
+    
+}
+.sliderdigital img:hover{
+  background-color: #a25627;
+  transition: 1s;
+ }

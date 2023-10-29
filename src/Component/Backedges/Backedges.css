@@ -1,0 +1,22 @@
+.packedgg {
+  position: relative;
+}
+.packedgNamed {
+  position: absolute;
+  background-color: rgb(76, 75, 75);
+  bottom: 30%;
+  right: 13%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  transition: transform 0.3s ease-out;
+  
+  
+
+
+}
+ 
+
+  .packedgNamed:hover   {
+  transform: translate(0, -15px);
+}
