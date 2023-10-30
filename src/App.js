@@ -3,7 +3,7 @@ import "./App.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter , createHashRouter } from "react-router-dom";
 import Layout from "./Component/Layout/Layout";
 // import Home from './Component/Home/Home';
 import Home from "./Component/Home/Home";
@@ -27,7 +27,7 @@ import Cart from "./Component/Cart/Cart";
 import Pay from "./Component/Pay/Pay";
 
 function App() {
-  let Mo = createBrowserRouter([
+  let Mo = createHashRouter([
     {
       path: "",
       element: <Layout />,
